@@ -10,10 +10,6 @@ namespace Flags
     {
         public static long Solve(int numberOfStripes)
         {
-            long firstPart = 2;
-            long baseForTwoStripes = firstPart;
-            if (numberOfStripes == 1 || numberOfStripes == 2)
-            {
                 return baseForOneStripe;
             }
             var valueOfVarients = new List<long>();
